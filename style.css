@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #edf2f8;
+    color: #25334a;
+    padding: 35px 15px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background: #17365d;
+    color: white;
+    padding: 35px 25px;
+    border-radius: 14px 14px 0 0;
+    text-align: center;
+}
+
+.marca {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #a9cbff;
+    font-weight: bold;
+}
+
+.cabecalho h1 {
+    font-size: 28px;
+    margin: 18px 0 12px;
+}
+
+.cabecalho p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #e0e9f7;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 8px 25px #172b4d12;
+}
+
+h2 {
+    font-size: 18px;
+    color: #17365d;
+    margin: 12px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e6ef;
+}
+
+h2:not(:first-child) {
+    margin-top: 28px;
+}
+
+label {
+    display: block;
+    margin: 16px 0 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font: inherit;
+    font-size: 14px;
+    background: #fff;
+}
+
+textarea {
+    min-height: 95px;
+    resize: vertical;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px #2563eb20;
+}
+
+.observacao {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 18px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+button:disabled {
+    opacity: 0.65;
+    cursor: wait;
+}
+
+#aviso {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.sucesso {
+    color: #167342;
+}
+
+.erro {
+    color: #b42318;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #64748b;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    .cabecalho {
+        padding: 28px 18px;
+    }
+
+    .cabecalho h1 {
+        font-size: 23px;
+    }
+
+    form {
+        padding: 22px 18px;
+    }
+}
+
